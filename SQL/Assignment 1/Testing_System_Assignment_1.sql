@@ -20,7 +20,7 @@ CREATE TABLE `Account` (
     Username		VARCHAR(50),
     Fullname 		VARCHAR(50),
     DepartmentID	INT,
-    PositionID		VARCHAR(50),
+    PositionID		INT,
     Createdate		DATE
 );
 
@@ -65,7 +65,7 @@ CREATE TABLE Answer (
 
 CREATE TABLE Exam (
 	ExamID			INT,
-	Code			INT,
+	`Code`			INT,
     Title			VARCHAR(50),
     CategoryID 		INT,
     Duration		VARCHAR(50),
