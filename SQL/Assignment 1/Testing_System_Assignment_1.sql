@@ -2,11 +2,13 @@ DROP DATABASE IF EXISTS TestingManagement;
 CREATE DATABASE TestingManagement;
 USE TestingManagement;
 
+-- Create table Department
 CREATE TABLE Department (
 	DepartmentID	INT,
     DepartmentName	VARCHAR(50)
 );
 
+-- Create table Position
 CREATE TABLE Position (
 	PositionID		INT,
     PositionName	VARCHAR(50)
