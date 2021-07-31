@@ -68,7 +68,7 @@ CREATE TABLE Exam (
 	`Code`			INT,
     Title			VARCHAR(50),
     CategoryID 		INT,
-    Duration		VARCHAR(50),
+    Duration		INT,
     CreatorID		INT,
     CreateDate		DATE
 );
